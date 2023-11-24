@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat+Alternates:wght@300;400;600;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   font-family: 'poppins',sans-serif;
+}
+
+ body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+ }
+
+ .calculator{
+    border: 1px solid #3a4452;
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115,119,0.5);
+ }
+ .calculator h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    color: #ffffff;
+    font-family: sans-serif;
+    
+ }
+ .calculator h2:hover{
+    background:linear-gradient( #AB46D2, #0A4D68);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+ }
+  
+ input{
+    width: 320px;
+    border: 1px solid rgba(225, 225, 225, 0.3) ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background:transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84,0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color:#ffffff;
+
+ }
+ input::placeholder
+{
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1);
+    cursor: pointer;
+}
+button:hover{
+    background:linear-gradient(45deg, #AB46D2, #0A4D68);
+    box-shadow: 0 0 1rem #D9ACF5 ;
+}
+
+.equalBtn{
+    background-color: #fb7c14;
+}
+.equalBtn:hover{
+    background: linear-gradient(45deg, #FF6C22, #E55807);
+    color: #ffffff;
+}
+
+.operator{
+    /* color:#175825; */
+    font-size: 23px;
+    color: #0a0a;
+
+ }
+ .operator:hover{
+    background: linear-gradient(45deg,#1A5D1A,#01D28E);
+    color: #ffffff;
+ }
